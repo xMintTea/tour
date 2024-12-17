@@ -18,3 +18,9 @@ C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.CoreC
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.exe
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.pdb
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\App.baml
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.dll
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.xml
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp_Content.g.cs
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.Up2Date

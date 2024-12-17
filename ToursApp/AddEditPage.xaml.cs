@@ -20,6 +20,11 @@ namespace ToursApp {
     public partial class AddEditPage : Page {
         public AddEditPage() {
             InitializeComponent();
+            ComboCountries.ItemsSource = TourBaseEntities.getConext().Country.ToList();
+        }
+
+        private void saveBtn_Click(object sender, RoutedEventArgs e) {
+
         }
     }
 }
