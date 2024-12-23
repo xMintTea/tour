@@ -18,25 +18,66 @@ namespace ToursApp {
     /// Логика взаимодействия для HotelsPage.xaml
     /// </summary>
     public partial class HotelsPage : Page {
-        public HotelsPage() {
+        private int userId;
+        public HotelsPage(int userId) {
+            this.userId = userId;
             InitializeComponent();
-            DGridHotels.ItemsSource = TourBaseEntities.getConext().Hotel.ToList();
+
+            if (this.userId == 0 || this.userId == 1)
+            {
+                AddBtn.Visibility = Visibility.Hidden;
+                DeleteBtn.Visibility = Visibility.Hidden;
+
+            }
+
+            
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
-               Manager.MainFrame.Navigate(new AddEditPage());
         }
 
         private void BtnEdit_Click(object sender, RoutedEventArgs e) {
 
+            if (this.userId == 0)
+            {
+                MessageBox.Show("Недостаточно прав");
+                return;
+            }
+
+            Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Hotel));
         }
 
         private void AddBtn_Click(object sender, RoutedEventArgs e) {
-            Manager.MainFrame.Navigate(new AddEditPage());
+            Manager.MainFrame.Navigate(new AddEditPage(null));
         }
 
         private void DeleteBtn_Click(object sender, RoutedEventArgs e) {
+            var hotelsForRemoving = DGridHotels.SelectedItems.Cast<Hotel>().ToList();
 
+            if (MessageBox.Show($"Вы точно хотите удалить следующие {hotelsForRemoving.Count()} элементов?",
+                "Внимание", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    TourBaseEntities.getConext().Hotel.RemoveRange(hotelsForRemoving);
+                    TourBaseEntities.getConext().SaveChanges();
+                    MessageBox.Show("Данные удалены");
+
+                    DGridHotels.ItemsSource = TourBaseEntities.getConext().Hotel.ToList();
+                } catch (Exception ex) {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+        }
+
+        private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e) {
+            if (Visibility == Visibility.Visible)
+            {
+                TourBaseEntities.getConext().ChangeTracker.Entries().ToList().ForEach(entry => entry.Reload());
+                    DGridHotels.ItemsSource = TourBaseEntities.getConext().Hotel.ToList();
+                
+            }
         }
     }
 }

@@ -13,25 +13,23 @@ namespace ToursApp
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TourBaseEntities : DbContext {
-        private static TourBaseEntities conext_;
+    public partial class TourBaseEntities : DbContext
+    {
+        private static TourBaseEntities context_;
 
         public TourBaseEntities()
-            : base("name=TourBaseEntities")
+            : base("name=TourBaseEntities1")
         {
         }
 
-
         public static TourBaseEntities getConext() {
-            if (conext_ == null)
+            if (context_ == null)
             {
-                conext_ = new TourBaseEntities();
+                context_ = new TourBaseEntities();
             }
 
-            return conext_;
+            return context_;
         }
-
-
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

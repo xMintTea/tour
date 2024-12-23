@@ -17,7 +17,5 @@ namespace ToursApp
         public int id { get; set; }
         public int HotelId { get; set; }
         public byte[] ImageSource { get; set; }
-    
-        public virtual Hotel Hotel { get; set; }
     }
 }

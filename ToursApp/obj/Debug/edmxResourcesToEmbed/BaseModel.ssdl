@@ -11,7 +11,7 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="CountOfStars" Type="int" Nullable="false" />
     <Property Name="CountryCode" Type="nchar" MaxLength="2" Nullable="false" />
@@ -56,13 +56,13 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
-    <Property Name="TicketCount" Type="int" Nullable="false" />
-    <Property Name="Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TicketCount" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
     <Property Name="Description" Type="nvarchar(max)" />
     <Property Name="ImagePreview" Type="varbinary(max)" />
-    <Property Name="Price" Type="money" Nullable="false" />
-    <Property Name="IsActual" Type="bit" Nullable="false" />
+    <Property Name="Price" Type="money" />
+    <Property Name="isActual" Type="bit" />
   </EntityType>
   <EntityType Name="Type">
     <Key>
@@ -89,30 +89,6 @@
       </Principal>
       <Dependent Role="Hotel">
         <PropertyRef Name="CountryCode" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_HotelComment_Hotel">
-    <End Role="Hotel" Type="Self.Hotel" Multiplicity="1" />
-    <End Role="HotelComment" Type="Self.HotelComment" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Hotel">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="HotelComment">
-        <PropertyRef Name="HotelId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_HotelImage_Hotel">
-    <End Role="Hotel" Type="Self.Hotel" Multiplicity="1" />
-    <End Role="HotelImage" Type="Self.HotelImage" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Hotel">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="HotelImage">
-        <PropertyRef Name="HotelId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -177,14 +153,6 @@
     <AssociationSet Name="FK_Hotel_Country" Association="Self.FK_Hotel_Country">
       <End Role="Country" EntitySet="Country" />
       <End Role="Hotel" EntitySet="Hotel" />
-    </AssociationSet>
-    <AssociationSet Name="FK_HotelComment_Hotel" Association="Self.FK_HotelComment_Hotel">
-      <End Role="Hotel" EntitySet="Hotel" />
-      <End Role="HotelComment" EntitySet="HotelComment" />
-    </AssociationSet>
-    <AssociationSet Name="FK_HotelImage_Hotel" Association="Self.FK_HotelImage_Hotel">
-      <End Role="Hotel" EntitySet="Hotel" />
-      <End Role="HotelImage" EntitySet="HotelImage" />
     </AssociationSet>
     <AssociationSet Name="FK_HotelOfTour_Hotel" Association="Self.FK_HotelOfTour_Hotel">
       <End Role="Hotel" EntitySet="Hotel" />

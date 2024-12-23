@@ -19,7 +19,5 @@ namespace ToursApp
         public string Text { get; set; }
         public string Author { get; set; }
         public System.DateTime CreationDate { get; set; }
-    
-        public virtual Hotel Hotel { get; set; }
     }
 }

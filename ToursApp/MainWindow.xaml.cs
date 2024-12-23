@@ -18,10 +18,16 @@ namespace ToursApp {
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window {
+        private bool shouldClearNavHistory = false;
         public MainWindow() {
+
             InitializeComponent();
-            MainFrame.Navigate(new HotelsPage());
+            UserBox.SelectedIndex = 0;
+            MainFrame.Navigate(new HotelsPage(UserBox.SelectedIndex));
             Manager.MainFrame = MainFrame;
+
+
+
         }
 
         private void backBtn_Click(object sender, RoutedEventArgs e) {
@@ -29,12 +35,36 @@ namespace ToursApp {
         }
 
         private void MainFrame_ContentRendered(object sender, EventArgs e) {
+
+            if (shouldClearNavHistory)
+            {
+                while (MainFrame.CanGoBack)
+                {
+                    try
+                    {
+                        MainFrame.RemoveBackEntry();
+                    }
+                    catch (Exception ex)
+                    {
+                        break;
+                    }
+                }
+
+                this.shouldClearNavHistory = false;
+            }
+
             if (MainFrame.CanGoBack) { 
                 backBtn.Visibility = Visibility.Visible;
             } else
             {
                 backBtn.Visibility = Visibility.Hidden;
             }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e) {
+            MainFrame.Navigate(new HotelsPage(UserBox.SelectedIndex));
+            Manager.MainFrame = MainFrame;
+            this.shouldClearNavHistory = true;
         }
     }
 }

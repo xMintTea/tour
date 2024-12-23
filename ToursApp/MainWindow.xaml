@@ -12,13 +12,19 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        
 
-        <Grid Background="#bae3e8" />
+
+        <Grid Background="#bae3e8" >
+            <ComboBox HorizontalAlignment="Left" Margin="131,0,0,0" VerticalAlignment="Center" Width="120" Name="UserBox" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Пользователь"></ComboBoxItem>
+                <ComboBoxItem Content="Менеджер"></ComboBoxItem>
+                <ComboBoxItem Content="Админ"></ComboBoxItem>
+            </ComboBox>
+        </Grid>
         <Image Source="Resources/miyabi.png" HorizontalAlignment="Left" />
         <TextBlock Text="Header" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        
-        
+
+
         <Grid Grid.Row="2" Background="#445c93"/>
 
         <Frame NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame"/>
