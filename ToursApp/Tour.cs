@@ -28,6 +28,14 @@ namespace ToursApp
         public byte[] ImagePreview { get; set; }
         public Nullable<decimal> Price { get; set; }
         public Nullable<bool> isActual { get; set; }
+
+
+        public string ActualText { 
+            get {
+                return ((bool)isActual) ? "Актуален" : "Завершён";
+            }
+        }
+
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Hotel> Hotel { get; set; }

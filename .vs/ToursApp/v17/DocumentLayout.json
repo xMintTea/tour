@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\tourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\tourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\tourpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\tourpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\toursapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\toursapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\hotelspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\toursapp\\hotelspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\hotelspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,11 +31,11 @@
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\hotelspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\toursapp\\hotelspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\hotelspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|c:\\users\\mint tea\\source\\repos\\toursapp\\toursapp\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\toursapp\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{225F1449-3A60-4E19-B77C-2E060E18C4F8}|ToursApp\\ToursApp.csproj|solutionrelative:toursapp\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +54,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TourPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\TourPage.xaml.cs",
+              "RelativeDocumentMoniker": "ToursApp\\TourPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\TourPage.xaml.cs*",
+              "RelativeToolTip": "ToursApp\\TourPage.xaml.cs*",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:48:26.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TourPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\TourPage.xaml",
+              "RelativeDocumentMoniker": "ToursApp\\TourPage.xaml",
+              "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\TourPage.xaml*",
+              "RelativeToolTip": "ToursApp\\TourPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-24T09:26:26.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\Tour.cs",
+              "RelativeDocumentMoniker": "ToursApp\\Tour.cs",
+              "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\Tour.cs",
+              "RelativeToolTip": "ToursApp\\Tour.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:59:12.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ToursApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "ToursApp\\MainWindow.xaml.cs*",
-              "ViewState": "AQIAACMAAAAAAAAAAAAmwDQAAAAzAAAA",
+              "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ToursApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswBoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T08:26:17.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AddEditPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\AddEditPage.xaml.cs",
               "RelativeDocumentMoniker": "ToursApp\\AddEditPage.xaml.cs",
@@ -63,12 +113,11 @@
               "RelativeToolTip": "ToursApp\\AddEditPage.xaml.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAgwBwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T12:56:45.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T12:56:45.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HotelsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\HotelsPage.xaml.cs",
               "RelativeDocumentMoniker": "ToursApp\\HotelsPage.xaml.cs",
@@ -76,12 +125,11 @@
               "RelativeToolTip": "ToursApp\\HotelsPage.xaml.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAuwCAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T11:26:53.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T11:26:53.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ToursApp\\MainWindow.xaml",
@@ -93,27 +141,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HotelsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\HotelsPage.xaml",
               "RelativeDocumentMoniker": "ToursApp\\HotelsPage.xaml",
               "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\HotelsPage.xaml",
               "RelativeToolTip": "ToursApp\\HotelsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-23T07:03:46.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T07:03:46.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AddEditPage.xaml",
               "DocumentMoniker": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\AddEditPage.xaml",
               "RelativeDocumentMoniker": "ToursApp\\AddEditPage.xaml",
               "ToolTip": "C:\\Users\\Mint Tea\\source\\repos\\ToursApp\\ToursApp\\AddEditPage.xaml",
               "RelativeToolTip": "ToursApp\\AddEditPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-23T07:03:54.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T07:03:54.427Z"
             }
           ]
         }

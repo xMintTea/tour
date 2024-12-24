@@ -24,3 +24,5 @@ C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.xml
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp_Content.g.cs
 C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.Up2Date
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\TourPage.g.cs
+C:\Users\Mint Tea\source\repos\ToursApp\ToursApp\obj\Debug\TourPage.baml

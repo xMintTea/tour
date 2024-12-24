@@ -23,7 +23,8 @@ namespace ToursApp {
 
             InitializeComponent();
             UserBox.SelectedIndex = 0;
-            MainFrame.Navigate(new HotelsPage(UserBox.SelectedIndex));
+            MainFrame.Navigate(new TourPage());
+            //MainFrame.Navigate(new HotelsPage(UserBox.SelectedIndex));
             Manager.MainFrame = MainFrame;
 
 
